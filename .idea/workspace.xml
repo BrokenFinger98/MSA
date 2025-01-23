@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c438faa1-4e16-40c1-b3e4-3bac6395fee0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +99,7 @@
     "Gradle.Build apigateway-service.executor": "Run",
     "Gradle.Build config-service.executor": "Run",
     "Gradle.Build discoveryservice.executor": "Run",
+    "Gradle.Build user-service.executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
     "RequestMappingsPanelOrder0": "0",
@@ -116,6 +111,7 @@
     "Spring Boot.ApigatewayServiceApplication.executor": "Run",
     "Spring Boot.ConfigServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryserviceApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/yu-sun00/Desktop/spring/MSA",
@@ -225,7 +221,7 @@
       <workItem from="1737640969649" duration="61000" />
       <workItem from="1737641042767" duration="930000" />
       <workItem from="1737641977159" duration="246000" />
-      <workItem from="1737642233454" duration="3450000" />
+      <workItem from="1737642233454" duration="3924000" />
     </task>
     <servers />
   </component>
