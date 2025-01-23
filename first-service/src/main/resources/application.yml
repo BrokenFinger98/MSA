@@ -1,0 +1,15 @@
+server:
+  port: 0 # 랜덤 포트 부여 하고 싶을 시 0번 포트 사용
+
+spring:
+  application:
+    name: my-first-service
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}} # 유레카 서버에서 랜덤 포트로 표기되게 하기 위한 방법
