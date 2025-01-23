@@ -1,3 +1,6 @@
 token:
   expiration_time: 86400000
   secret: user_token_test_1234567890123456
+
+gateway:
+  ip: 119.67.102.178

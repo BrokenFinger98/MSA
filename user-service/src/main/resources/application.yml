@@ -40,6 +40,6 @@ logging:
     com.example.userservice : DEBUG
 # 터미널로 gradle 서버 run 명령어 : ./gradlew bootRun --args='--server.port=9003'
 
-token:
-  expiration_time: 86400000
-  secret: user_token_test_1234567890123456
+#token:
+#  expiration_time: 86400000
+#  secret: user_token_test_1234567890123456
