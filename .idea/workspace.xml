@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c438faa1-4e16-40c1-b3e4-3bac6395fee0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +238,7 @@
       <workItem from="1737641977159" duration="246000" />
       <workItem from="1737642233454" duration="3924000" />
       <workItem from="1737978135512" duration="4000" />
-      <workItem from="1737978612745" duration="2889000" />
+      <workItem from="1737978612745" duration="3090000" />
     </task>
     <task id="LOCAL-00001" summary="refactor update apigateway-service bootstrap.yml">
       <option name="closed" value="true" />
