@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/jpashop
+    username: sa
+    password:
+
 token:
   expiration_time: 86400000
   secret: user_token_test_123456789_prod

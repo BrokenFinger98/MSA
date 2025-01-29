@@ -22,11 +22,11 @@ spring:
     hibernate:
       ddl-auto: create
 
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:tcp://localhost/~/jpashop
-    username: sa
-    password:
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:tcp://localhost/~/jpashop
+#    username: sa
+#    password:
 
 eureka:
   instance:
