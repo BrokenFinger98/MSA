@@ -50,7 +50,6 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
 		try {
 			RequestLogin creds = new ObjectMapper().readValue(request.getInputStream(), RequestLogin.class);
-
 			return getAuthenticationManager().authenticate(
 				new UsernamePasswordAuthenticationToken(
 					creds.getEmail(),
