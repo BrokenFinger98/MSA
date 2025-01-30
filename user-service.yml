@@ -13,4 +13,4 @@ gateway:
   ip: 119.67.102.178
 
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders
