@@ -1,9 +1,6 @@
 package com.example.apigatewayservice.filter;
 
-import java.util.Base64;
-
 import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 
 import org.apache.http.HttpHeaders;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
@@ -17,7 +14,7 @@ import org.springframework.web.server.ServerWebExchange;
 
 import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.security.Keys;
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;
 
@@ -56,8 +53,8 @@ public class AuthorizationHeaderFilter extends AbstractGatewayFilterFactory<Auth
 	}
 
 	private boolean isJwtValid(String jwt) {
-		byte[] secretKeyBytes = Base64.getEncoder().encode(env.getProperty("token.secret").getBytes());
-		SecretKey signingKey = new SecretKeySpec(secretKeyBytes, SignatureAlgorithm.HS512.getJcaName());
+		byte[] secretKeyBytes = env.getProperty("token.secret").getBytes();
+		SecretKey signingKey = Keys.hmacShaKeyFor(secretKeyBytes);
 
 		boolean returnValue = true;
 		String subject = null;
