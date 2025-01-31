@@ -35,7 +35,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-        defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka
 #      defaultZone: http://127.0.0.1:8762/eureka, http://MacBookPro.local:8763/eureka
 
 greeting:
@@ -43,7 +43,7 @@ greeting:
 
 logging:
   level:
-    com.example.userservice : DEBUG
+    com.example.userservice.client: DEBUG
 # 터미널로 gradle 서버 run 명령어 : ./gradlew bootRun --args='--server.port=9003'
 
 #token:
