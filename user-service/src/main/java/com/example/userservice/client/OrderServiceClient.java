@@ -11,6 +11,6 @@ import com.example.userservice.vo.ResponseOrder;
 @FeignClient(name = "order-service")
 public interface OrderServiceClient {
 
-	@GetMapping("/{userId}/orders_ng")
+	@GetMapping("/{userId}/orders")
 	List<ResponseOrder> getOrders(@PathVariable("userId") String userId);
 }

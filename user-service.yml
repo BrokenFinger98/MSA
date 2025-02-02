@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:tcp://localhost/~/jpashop
+    url: jdbc:h2:mem:testdb
     username: sa
     password: '{cipher}4f85896c765777e9d537c91008858b7cbbb25c6668fb3f2efa906078a4af9d64'
 
