@@ -57,6 +57,7 @@ public class WebSecurity {
 				.requestMatchers(new AntPathRequestMatcher("/swagger-ui/**")).permitAll()
 				.requestMatchers(new AntPathRequestMatcher("/swagger-resources/**")).permitAll()
 				.requestMatchers(new AntPathRequestMatcher("/v3/api-docs/**")).permitAll()
+				.requestMatchers(new AntPathRequestMatcher("/error")).permitAll()
 				.requestMatchers("/**").access(
 					new WebExpressionAuthorizationManager(
 						"hasIpAddress('127.0.0.1')")) // host pc ip address
